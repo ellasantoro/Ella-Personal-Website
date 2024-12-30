@@ -1,0 +1,48 @@
+.typing-container {
+    display: inline-block;
+    position: relative;
+    font-family: "Radley", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+    max-width: 600px;
+  }
+
+  .intro{
+    font-size: 0.8em;
+    font-family: "Radley", serif;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+
+  /* medium screens */
+@media (max-width: 992px) {
+  .typing-container {
+    font-size: 1.5em;
+    max-width: 500px;
+  }
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  .typing-container {
+    font-size: 1.2em;
+    max-width: 100%;
+  }
+}
+
+/* xs screens */
+@media (max-width: 375px) {
+  .typing-container {
+    font-size: 1em;
+    max-width: 100%;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background: white;
+  }
+
+}
